@@ -3,6 +3,44 @@
     padding: 0;
 }
 
-img{
-    width: 300px;
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #363543;
+    color: rgb(234, 234, 234);
+}
+
+/*CABECALHO------------------------*/
+.cabecalho__nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho__nav__logotipo{
+    height: 35px;
+    margin: 5px 100px 5px 25px;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    padding: 25px;
+}
+
+.cabecalho__apresentacao{
+    display: flex;
+}
+
+
+/*Conteudo---------------------------*/
+
+main{
+    background-color: rgb(29, 29, 29);
+    margin: 50px 0 50px 0;
+    padding: 100px;
 }
